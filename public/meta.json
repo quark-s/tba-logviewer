@@ -1,0 +1,26 @@
+[
+    {
+        "name": "focus",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+        "name": "click",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+        "name": "mousemove",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+        "name": "useragent",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+        "name": "positions",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+        "name": "viewport",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    }
+]

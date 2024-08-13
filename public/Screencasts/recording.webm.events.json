@@ -1,0 +1,510 @@
+[
+    {
+        "name": "UserLogin",
+        "payload": {
+            "user": "default",
+            "loginTimestamp": "2024-06-10T19:57:37+02:00",
+            "runtimeVersion": "cba 10.0.0",
+            "webClientUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+        },
+        "timestamp": 1718042257234,
+        "entryId": "1"
+    },
+    {
+        "name": "TaskSwitch",
+        "payload": {
+            "newTask": "task0",
+            "newItem": "SinglePageItems_INSTR",
+            "newTest": "A",
+            "taskResult": {}
+        },
+        "timestamp": 1718042257519,
+        "entryId": "2"
+    },
+    {
+        "name": "ItemSwitch",
+        "payload": {
+            "item": {
+                "runtimeCompatibilityVersion": "10.0.0",
+                "name": "SinglePageItems_INSTR",
+                "valueMaps": [],
+                "variables": [],
+                "usedResources": {
+                    "resources": [
+                        {
+                            "name": "ExampleVideo.mp4",
+                            "size": 777229,
+                            "type": "video"
+                        }
+                    ],
+                    "externalResources": [],
+                    "fontMappings": []
+                },
+                "dependencies": []
+            }
+        },
+        "timestamp": 1718042257520,
+        "entryId": "3"
+    },
+    {
+        "name": "TasksViewVisible",
+        "payload": {
+            "settings": {
+                "ShowTaskNavigationBars": false
+            },
+            "headerButtons": [],
+            "upperHeaderMenu": [],
+            "lowerHeaderMenu": []
+        },
+        "timestamp": 1718042257523,
+        "entryId": "4"
+    },
+    {
+        "name": "UserLogin",
+        "payload": {
+            "user": "default",
+            "loginTimestamp": "2024-06-10T19:57:37+02:00",
+            "runtimeVersion": "cba 9.6.0",
+            "webClientUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+        },
+        "timestamp": 1718042257236,
+        "entryId": "1"
+    },
+    {
+        "name": "VideoPlayerControl",
+        "payload": {
+            "indexPath": "/test=A/item=SinglePageItems_INSTR/task=task0/pageAreaType=main/pageAreaName=standard/page=page1/index=0/index=0",
+            "userDefIdPath": "/pageAreaType=main/pageAreaName=standard/id=$7179595851600",
+            "userDefId": "$7179595851600",
+            "operation": "play",
+            "maxPlay": 0,
+            "currentPlayNo": 0,
+            "automaticStart": true,
+            "hideControls": true,
+            "volumeLevel": 0,
+            "isStatemachineTriggered": false
+        },
+        "timestamp": 1718042257739,
+        "entryId": "5"
+    },
+    {
+        "name": "Button",
+        "payload": {
+            "indexPath": "/test=A/item=SinglePageItems_INSTR/task=task0/pageAreaType=main/pageAreaName=standard/page=page1/index=0/index=2",
+            "userDefIdPath": "/pageAreaType=main/pageAreaName=standard/id=$1075490900705799",
+            "userDefId": "$1075490900705799",
+            "clientX": 884,
+            "clientY": 668,
+            "pageX": 884,
+            "pageY": 668,
+            "screenX": 3116,
+            "screenY": 920,
+            "oldSelected": false
+        },
+        "timestamp": 1718042268092,
+        "entryId": "6"
+    },
+    {
+        "name": "TaskSwitch",
+        "payload": {
+            "oldTask": "task0",
+            "oldItem": "SinglePageItems_INSTR",
+            "oldTest": "A",
+            "taskResult": {
+                "hitsAccumulated": 0,
+                "hitsCount": 0,
+                "missesAccumulated": 0,
+                "missesCount": 0,
+                "classMaxWeighted": 0,
+                "classMaxName": "",
+                "totalResult": 0,
+                "nbUserInteractions": 2,
+                "nbUserInteractionsTotal": 2,
+                "firstReactionTime": 219,
+                "firstReactionTimeTotal": 219,
+                "taskExecutionTime": 10576,
+                "taskExecutionTimeTotal": 0
+            }
+        },
+        "timestamp": 1718042268098,
+        "entryId": "8"
+    },
+    {
+        "name": "TaskSwitch",
+        "payload": {
+            "oldItem": "SinglePageItems_INSTR",
+            "oldTest": "A",
+            "newTask": "task0",
+            "newItem": "SinglePageItems_01SC",
+            "newTest": "A",
+            "taskResult": {}
+        },
+        "timestamp": 1718042268103,
+        "entryId": "9"
+    },
+    {
+        "name": "ItemSwitch",
+        "payload": {
+            "item": {
+                "runtimeCompatibilityVersion": "10.0.0",
+                "name": "SinglePageItems_01SC",
+                "valueMaps": [],
+                "variables": [],
+                "usedResources": {
+                    "resources": [],
+                    "externalResources": [],
+                    "fontMappings": []
+                },
+                "dependencies": []
+            }
+        },
+        "timestamp": 1718042268103,
+        "entryId": "10"
+    },
+    {
+        "name": "TasksViewVisible",
+        "payload": {
+            "settings": {
+                "ShowTaskNavigationBars": false
+            },
+            "headerButtons": [],
+            "upperHeaderMenu": [],
+            "lowerHeaderMenu": []
+        },
+        "timestamp": 1718042268106,
+        "entryId": "11"
+    },
+    {
+        "name": "RadioButton",
+        "payload": {
+            "indexPath": "/test=A/item=SinglePageItems_01SC/task=task0/pageAreaType=main/pageAreaName=standard/page=page1/index=0/index=3/index=2",
+            "userDefIdPath": "/pageAreaType=main/pageAreaName=standard/id=c",
+            "userDefId": "c",
+            "clientX": 189,
+            "clientY": 477,
+            "pageX": 189,
+            "pageY": 477,
+            "screenX": 2277,
+            "screenY": 690,
+            "oldSelected": false
+        },
+        "timestamp": 1718042269444,
+        "entryId": "12"
+    },
+    {
+        "name": "Button",
+        "payload": {
+            "indexPath": "/test=A/item=SinglePageItems_01SC/task=task0/pageAreaType=main/pageAreaName=standard/page=page1/index=0/index=2",
+            "userDefIdPath": "/pageAreaType=main/pageAreaName=standard/id=$1075490900705799",
+            "userDefId": "$1075490900705799",
+            "clientX": 855,
+            "clientY": 664,
+            "pageX": 855,
+            "pageY": 664,
+            "screenX": 3082,
+            "screenY": 916,
+            "oldSelected": false
+        },
+        "timestamp": 1718042273777,
+        "entryId": "13"
+    },
+    {
+        "name": "TaskSwitch",
+        "payload": {
+            "oldTask": "task0",
+            "oldItem": "SinglePageItems_01SC",
+            "oldTest": "A",
+            "taskResult": {
+                "hit.RawA": false,
+                "hitText.RawA": "",
+                "hitWeighted.RawA": 0,
+                "hitClass.RawA": "RawResponse",
+                "hit.RawB": false,
+                "hitText.RawB": "",
+                "hitWeighted.RawB": 0,
+                "hitClass.RawB": "RawResponse",
+                "hit.RawC": true,
+                "hitText.RawC": "",
+                "hitWeighted.RawC": 1,
+                "hitClass.RawC": "RawResponse",
+                "hit.RawD": false,
+                "hitText.RawD": "",
+                "hitWeighted.RawD": 0,
+                "hitClass.RawD": "RawResponse",
+                "hit.ScoreWrong": false,
+                "hitText.ScoreWrong": "",
+                "hitWeighted.ScoreWrong": 0,
+                "hitClass.ScoreWrong": "ScoredResponse",
+                "hit.ScoreCorrect": true,
+                "hitText.ScoreCorrect": "",
+                "hitWeighted.ScoreCorrect": 1,
+                "hitClass.ScoreCorrect": "ScoredResponse",
+                "hit.RawOR": false,
+                "hitText.RawOR": "",
+                "hitWeighted.RawOR": 0,
+                "hitClass.RawOR": "RawResponse",
+                "hit.ScoreOR": false,
+                "hitText.ScoreOR": "",
+                "hitWeighted.ScoreOR": 0,
+                "hitClass.ScoreOR": "ScoredResponse",
+                "hitsAccumulated": 2,
+                "hitsCount": 2,
+                "missesAccumulated": 0,
+                "missesCount": 0,
+                "classHitWeighted.ScoredResponse": 1,
+                "classFirstActiveHit.ScoredResponse": "ScoreCorrect",
+                "classHitWeighted.RawResponse": 1,
+                "classFirstActiveHit.RawResponse": "RawC",
+                "classResult.ScoredResponse": false,
+                "classResult.RawResponse": false,
+                "classMaxWeighted": 1,
+                "classMaxName": "ScoredResponse",
+                "totalResult": 1,
+                "nbUserInteractions": 2,
+                "nbUserInteractionsTotal": 2,
+                "firstReactionTime": 1340,
+                "firstReactionTimeTotal": 1340,
+                "taskExecutionTime": 5677,
+                "taskExecutionTimeTotal": 0
+            }
+        },
+        "timestamp": 1718042273782,
+        "entryId": "15"
+    },
+    {
+        "name": "TaskSwitch",
+        "payload": {
+            "oldItem": "SinglePageItems_01SC",
+            "oldTest": "A",
+            "newTask": "task0",
+            "newItem": "SinglePageItems_02MC",
+            "newTest": "A",
+            "taskResult": {}
+        },
+        "timestamp": 1718042273786,
+        "entryId": "16"
+    },
+    {
+        "name": "ItemSwitch",
+        "payload": {
+            "item": {
+                "runtimeCompatibilityVersion": "10.0.0",
+                "name": "SinglePageItems_02MC",
+                "valueMaps": [],
+                "variables": [],
+                "usedResources": {
+                    "resources": [],
+                    "externalResources": [],
+                    "fontMappings": []
+                },
+                "dependencies": []
+            }
+        },
+        "timestamp": 1718042273786,
+        "entryId": "17"
+    },
+    {
+        "name": "TasksViewVisible",
+        "payload": {
+            "settings": {
+                "ShowTaskNavigationBars": false
+            },
+            "headerButtons": [],
+            "upperHeaderMenu": [],
+            "lowerHeaderMenu": []
+        },
+        "timestamp": 1718042273789,
+        "entryId": "18"
+    },
+    {
+        "name": "Checkbox",
+        "payload": {
+            "indexPath": "/test=A/item=SinglePageItems_02MC/task=task0/pageAreaType=main/pageAreaName=standard/page=page1/index=0/index=3",
+            "userDefIdPath": "/pageAreaType=main/pageAreaName=standard/id=e1",
+            "userDefId": "e1",
+            "clientX": 174,
+            "clientY": 306,
+            "pageX": 174,
+            "pageY": 306,
+            "screenX": 2259,
+            "screenY": 483,
+            "oldSelected": false
+        },
+        "timestamp": 1718042275235,
+        "entryId": "19"
+    },
+    {
+        "name": "Checkbox",
+        "payload": {
+            "indexPath": "/test=A/item=SinglePageItems_02MC/task=task0/pageAreaType=main/pageAreaName=standard/page=page1/index=0/index=5",
+            "userDefIdPath": "/pageAreaType=main/pageAreaName=standard/id=e3",
+            "userDefId": "e3",
+            "clientX": 112,
+            "clientY": 461,
+            "pageX": 112,
+            "pageY": 461,
+            "screenX": 2184,
+            "screenY": 670,
+            "oldSelected": false
+        },
+        "timestamp": 1718042275993,
+        "entryId": "20"
+    },
+    {
+        "name": "Panel",
+        "payload": {
+            "indexPath": "/test=A/item=SinglePageItems_02MC/task=task0/pageAreaType=main/pageAreaName=standard/page=page1/index=0",
+            "userDefIdPath": "/pageAreaType=main/pageAreaName=standard/id=$1075490900695900",
+            "userDefId": "$1075490900695900",
+            "clientX": 858,
+            "clientY": 650,
+            "pageX": 858,
+            "pageY": 650,
+            "screenX": 3085,
+            "screenY": 899
+        },
+        "timestamp": 1718042276877,
+        "entryId": "21"
+    },
+    {
+        "name": "Button",
+        "payload": {
+            "indexPath": "/test=A/item=SinglePageItems_02MC/task=task0/pageAreaType=main/pageAreaName=standard/page=page1/index=0/index=2",
+            "userDefIdPath": "/pageAreaType=main/pageAreaName=standard/id=$1075490900705799",
+            "userDefId": "$1075490900705799",
+            "clientX": 796,
+            "clientY": 668,
+            "pageX": 796,
+            "pageY": 668,
+            "screenX": 3010,
+            "screenY": 920,
+            "oldSelected": false
+        },
+        "timestamp": 1718042277548,
+        "entryId": "22"
+    },
+    {
+        "name": "TaskSwitch",
+        "payload": {
+            "oldTask": "task0",
+            "oldItem": "SinglePageItems_02MC",
+            "oldTest": "A",
+            "taskResult": {
+                "hit.Entry1Selected": true,
+                "hitText.Entry1Selected": "",
+                "hitWeighted.Entry1Selected": 1,
+                "hitClass.Entry1Selected": "RawResponse1",
+                "hit.Entry1NotSelected": false,
+                "hitText.Entry1NotSelected": "",
+                "hitWeighted.Entry1NotSelected": 0,
+                "hitClass.Entry1NotSelected": "RawResponse1",
+                "hit.Entry2Selected": false,
+                "hitText.Entry2Selected": "",
+                "hitWeighted.Entry2Selected": 0,
+                "hitClass.Entry2Selected": "RawResponse2",
+                "hit.Entry2NotSelected": true,
+                "hitText.Entry2NotSelected": "",
+                "hitWeighted.Entry2NotSelected": 1,
+                "hitClass.Entry2NotSelected": "RawResponse2",
+                "hit.Entry3Selected": true,
+                "hitText.Entry3Selected": "",
+                "hitWeighted.Entry3Selected": 1,
+                "hitClass.Entry3Selected": "RawResponse3",
+                "hit.Entry3NotSelected": false,
+                "hitText.Entry3NotSelected": "",
+                "hitWeighted.Entry3NotSelected": 0,
+                "hitClass.Entry3NotSelected": "RawResponse3",
+                "hit.Entry4Selected": false,
+                "hitText.Entry4Selected": "",
+                "hitWeighted.Entry4Selected": 0,
+                "hitClass.Entry4Selected": "RawResponse4",
+                "hit.Entry4NotSelected": true,
+                "hitText.Entry4NotSelected": "",
+                "hitWeighted.Entry4NotSelected": 1,
+                "hitClass.Entry4NotSelected": "RawResponse4",
+                "hit.ScoreWrong": false,
+                "hitText.ScoreWrong": "",
+                "hitWeighted.ScoreWrong": 0,
+                "hitClass.ScoreWrong": "ScoredResponse",
+                "hit.ScoreCorrect": true,
+                "hitText.ScoreCorrect": "",
+                "hitWeighted.ScoreCorrect": 1,
+                "hitClass.ScoreCorrect": "ScoredResponse",
+                "hit.ScoreOR": false,
+                "hitText.ScoreOR": "",
+                "hitWeighted.ScoreOR": 0,
+                "hitClass.ScoreOR": "ScoredResponse",
+                "hitsAccumulated": 5,
+                "hitsCount": 5,
+                "missesAccumulated": 0,
+                "missesCount": 0,
+                "classHitWeighted.RawResponse4": 1,
+                "classHitWeighted.RawResponse3": 1,
+                "classHitWeighted.RawResponse2": 1,
+                "classHitWeighted.RawResponse1": 1,
+                "classHitWeighted.ScoredResponse": 1,
+                "classResult.RawResponse4": false,
+                "classResult.RawResponse3": false,
+                "classResult.RawResponse2": false,
+                "classResult.RawResponse1": false,
+                "classResult.ScoredResponse": false,
+                "classMaxWeighted": 1,
+                "classMaxName": "RawResponse4",
+                "totalResult": 1,
+                "nbUserInteractions": 4,
+                "nbUserInteractionsTotal": 4,
+                "firstReactionTime": 1448,
+                "firstReactionTimeTotal": 1448,
+                "taskExecutionTime": 3766,
+                "taskExecutionTimeTotal": 0
+            }
+        },
+        "timestamp": 1718042277555,
+        "entryId": "24"
+    },
+    {
+        "name": "TaskSwitch",
+        "payload": {
+            "oldItem": "SinglePageItems_02MC",
+            "oldTest": "A",
+            "newTask": "task0",
+            "newItem": "SinglePageItems_03TXT",
+            "newTest": "A",
+            "taskResult": {}
+        },
+        "timestamp": 1718042277557,
+        "entryId": "25"
+    },
+    {
+        "name": "ItemSwitch",
+        "payload": {
+            "item": {
+                "runtimeCompatibilityVersion": "10.0.0",
+                "name": "SinglePageItems_03TXT",
+                "valueMaps": [],
+                "variables": [],
+                "usedResources": {
+                    "resources": [],
+                    "externalResources": [],
+                    "fontMappings": []
+                },
+                "dependencies": []
+            }
+        },
+        "timestamp": 1718042277557,
+        "entryId": "26"
+    },
+    {
+        "name": "TasksViewVisible",
+        "payload": {
+            "settings": {
+                "ShowTaskNavigationBars": false
+            },
+            "headerButtons": [],
+            "upperHeaderMenu": [],
+            "lowerHeaderMenu": []
+        },
+        "timestamp": 1718042277560,
+        "entryId": "27"
+    }
+]
